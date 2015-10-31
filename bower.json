@@ -1,0 +1,19 @@
+{
+  "name": "T9",
+  "version": "0.0.0",
+  "description": "T9 Keyboard",
+  "authors": [
+    "Sahar Jafari"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-material": "~0.10.0",
+    "angular-mocks": "~1.4.3"
+  }
+}

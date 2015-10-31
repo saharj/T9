@@ -1,0 +1,30 @@
+{
+  "name": "t9",
+  "version": "0.0.0",
+  "description": "T9 Keyboard",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-livereload": "^3.8.1",
+    "node": "^0.0.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-livereload": "^3.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saharj/T9.git"
+  },
+  "author": "Sahar Jafari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saharj/T9/issues"
+  },
+  "homepage": "https://github.com/saharj/T9#readme"
+}
