@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var connect = require('gulp-connect');
 var livereload = require('gulp-livereload');
 
-gulp.task('connect', function() {
+gulp.task('connect', ['watch'], function() {
   connect.server();
 });
  
@@ -18,8 +18,9 @@ gulp.task('default', ['connect']);
 // 		.pipe(livereload());
 // });
 
-// gulp.task('watch', function() {
-//   livereload.listen();
-//   gulp.watch('index.html', ['html']);
-//   //gulp.watch('js/*.js', ['js']);
-// });
+gulp.task('watch', function() {
+  livereload.listen();
+  
+  //gulp.watch('index.html', ['html']);
+  //gulp.watch('js/*.js', ['js']);
+});
