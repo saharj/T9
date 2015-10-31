@@ -3,15 +3,35 @@
 <head>
 	<title>T9</title>
 	<link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
 </head>
 <body ng-controller="T9Ctrl">
-	<h1>{{name}}</h1>
-
 	<md-content>
-		<section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-			<md-button class="md-raised">1</md-button>
-			<md-button class="md-raised">2</md-button>
-			<md-button class="md-raised">3</md-button>
+		<section layout="column" layout-align="center center" layout-wrap>
+			<section layout="row" layout-align="center center" layout-wrap>
+				<md-button class="md-raised">1 .?!</md-button>
+				<md-button class="md-raised">2 ABC</md-button>
+				<md-button class="md-raised">3 DEF</md-button>
+			</section>
+			<section layout="row" layout-align="center center" layout-wrap>
+				<md-button class="md-raised">4 GHI</md-button>
+				<md-button class="md-raised">5 JKL</md-button>
+				<md-button class="md-raised">6 MNO</md-button>
+			</section>
+			<section layout="row" layout-align="center center" layout-wrap>
+				<md-button class="md-raised">7 PQRS</md-button>
+				<md-button class="md-raised">8 TUV</md-button>
+				<md-button class="md-raised">9 WXYZ</md-button>
+			</section>
+			<section layout="row" layout-align="center center" layout-wrap>
+				<md-button class="md-raised">*</md-button>
+				<md-button class="md-raised">0</md-button>
+				<md-button class="md-raised">#</md-button>
+			</section>
+			<md-whiteframe class="md-whiteframe-1dp" flex-gt-md="grow" layout layout-align="center center">
+    			<span>Result 345</span>
+  			</md-whiteframe>
 		</section>
 	</md-content>
 

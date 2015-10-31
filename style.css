@@ -1,0 +1,10 @@
+md-whiteframe {
+  background: #fff;
+  margin: 30px;
+  height: 50px;
+  width: 300px;
+  font-family: 'Old Standard TT', serif;
+}
+md-whiteframe span {
+	color: grey;
+}
