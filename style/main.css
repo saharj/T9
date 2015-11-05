@@ -9,6 +9,9 @@
 .md-button .num {
   font-size: 16px;
 }
-.result {
-  width: 200px;
+.result span {
+  line-height: 40px;
+  color: grey;
+  text-align: center;
+  width: 100%;
 }
