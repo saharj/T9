@@ -52,13 +52,21 @@
 				</md-button>
 			</section>
 			<section layout="row" layout-align="center center" layout-wrap>
-				<md-button class="md-raised">*</md-button>
-				<md-button class="md-raised">0</md-button>
-				<md-button class="md-raised">#</md-button>
+				<md-button class="md-raised">
+				<span class="num">*</span>
+				</md-button>
+				<md-button class="md-raised">
+				<span class="num">0</span>
+				</md-button>
+				<md-button class="md-raised">
+				<span class="num">#</span>
+				</md-button>
 			</section>
-			<md-whiteframe class="md-whiteframe-1dp" flex-gt-md="grow" layout layout-align="center center">
-    			<span>Result 345</span>
-  			</md-whiteframe>
+			<section layout-padding layout-wrap layout-fill style="padding-bottom: 32px;" layout-align="center center" ng-cloak>
+				<md-whiteframe class="md-whiteframe-1dp result" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout>
+    				<span>Result 345</span>
+  				</md-whiteframe>
+			</section>
 		</section>
 	</md-content>
 

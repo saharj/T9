@@ -1,5 +1,14 @@
-span {
+.md-button {
+  line-height: 20px !important;
+}
+.md-button span {
   display: block;
-  height: 20px;
-  font-size: 10px;
+  height: 23px;
+  font-size: 11px;
+}
+.md-button .num {
+  font-size: 16px;
+}
+.result {
+  width: 200px;
 }
