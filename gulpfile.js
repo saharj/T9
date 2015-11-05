@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
 var livereload = require('gulp-livereload');
+var less = require('gulp-less')
 
 gulp.task('connect', ['watch'], function() {
   connect.server();
@@ -23,4 +24,10 @@ gulp.task('watch', function() {
   
   //gulp.watch('index.html', ['html']);
   //gulp.watch('js/*.js', ['js']);
+});
+gulp.task('less', function() {
+  gulp.src('*.less')
+    .pipe(less())
+    .pipe(gulp.dest('style'))
+    .pipe(livereload());
 });
